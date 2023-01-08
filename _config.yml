@@ -7,7 +7,9 @@ title:               JunSung's Develop Blog
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://kjs775.github.io/junsung.study.github.io/
+
+url:                 https://kjs775.github.io/unsung.study.github.io/
+
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
@@ -22,7 +24,7 @@ description:         >
   Data science enthusiast and addict :)
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              junsung
+  name:              kjs775
   email:             kjs775@nate.com
 
 # Fallback image and color
