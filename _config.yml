@@ -16,19 +16,18 @@ url:                 https://kjs775.github.io/unsung.study.github.io/
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "All roads lead to data."
+tagline:
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Data science enthusiast and addict :)
 # This should be the same author as first entry in `_data/authors.yml`
 author:
   name:              kjs775
   email:             kjs775@nate.com
 
 # Fallback image and color
-image:               /assets/img/main_left.jpg
+image:               assets/img/main_left.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
@@ -86,13 +85,13 @@ paginate_path:       '/page-:num/'
 
 collections:
   featured_categories:
-    permalink:       /category/:name/
+    permalink:       category/:name/
     output:          true
   featured_tags:
-    permalink:       /tag/:name/
+    permalink:       tag/:name/
     output:          true
   projects:
-    permalink:       /projects/:path/
+    permalink:       projects/:path/
     output:          true
 
 # -----------------------------------------------------------------------------
